@@ -1,0 +1,68 @@
+body{ background-image: linear-gradient(to right, #b22234, #b22234 33.33%, #f1c40f);
+    margin:0px;
+    padding:0px;
+    
+   }
+
+ .red-stripe { 
+ background-color:#b31942;
+ height:80px;
+ width:100%;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.white-stripe {
+ background-color:#ffffff;
+ height:80px;
+ width:100%;
+ display: flex;
+ justify-content: center;
+
+}
+
+.blue-box{
+ background-color:#002e7a;
+ height:41%;
+ width:35%;
+ position: absolute;
+ background-image: url("stars.png");
+
+
+}
+
+.star-row {
+ color: white;
+ font-size:0.2em;
+ display: grid;
+ grid-row: auto; 
+ 
+ }
+
+
+.star {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.container {
+ transform: scale(0.7); 
+ transform-origin: center;
+ border: 2px solid #cdcdcd; /* Add border around the container */
+ box-sizing: border-box;
+
+ 
+}
+/* Responsive Design */
+@media (min-width: 768px) {
+ .container {
+   max-width: 70%;
+ }
+.blue-box {
+    width: 26.5%;
+}
+ 
+}
